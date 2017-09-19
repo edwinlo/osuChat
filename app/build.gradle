@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+/*    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }*/
 }
 
 dependencies {
@@ -28,8 +32,8 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     //IRC dependency by https://github.com/TheLQ/pircbotx
     //compile 'org.pircbotx:pircbotx:2.1'
-
     //IRC Library from https://github.com/KittehOrg/KittehIRCClientLib *need to credit later*
-    compile 'org.kitteh.irc:client-lib:3.3.0'
+    //compile 'org.kitteh.irc:client-lib:3.3.0'
     testCompile 'junit:junit:4.12'
+    compile files('libs/pircbot.jar')
 }
