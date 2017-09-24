@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.edwinlo.osuchat.com.edwinlo.irc.IRCClient;
-
 import java.util.ArrayList;
 
 public class ChatScreen extends AppCompatActivity{
